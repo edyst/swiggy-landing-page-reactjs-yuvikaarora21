@@ -1,0 +1,102 @@
+.login {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  /* transition: all 5s; */
+
+  /* top: 50%;
+      left: 50%;
+      font-size: larger; */
+  /* font-weight: 900; */
+}
+.content {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  width: 37%;
+  height: 100vh;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 63%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.s {
+  font-size: 30px;
+  font-weight: lighter;
+  cursor: pointer;
+
+  /* margin-top: 10%; */
+}
+.center {
+  margin: 5%;
+}
+.xd {
+  display: flex;
+  width: 360px;
+  justify-content: space-between;
+}
+img {
+  height: 105px;
+  width: 100px;
+}
+.l {
+  margin-top: 25px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.create {
+  text-decoration: none;
+  color: #fc8019;
+}
+.or {
+  padding-bottom: 23px;
+  /* border-width: 100px; */
+  border-bottom: 2px solid #000;
+}
+/* .inputLogin{
+      margin-top: 70px;
+      height:72px;
+      width: 358px;
+  } */
+/* .inputLogin input{
+      height: 100%;
+      width: 100%;
+  } */
+
+.slogs {
+  margin-top: 10px;
+  height: 50px;
+  width: 362px;
+}
+.slog {
+  margin-top: 30px;
+  background-color: #fc8019;
+  height: 100% !important;
+  width: 100% !important;
+}
+.policy {
+  margin-top: 32px;
+  width: 362px;
+  font-size: 12px;
+  color: #686b78 !important;
+}
+.policy a {
+  text-decoration: none;
+  color: #000;
+}
+
+.refferal{
+  /* margin-top: 350px; */
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #5d8ed5;
+  cursor: pointer;
+  text-decoration: none;
+}

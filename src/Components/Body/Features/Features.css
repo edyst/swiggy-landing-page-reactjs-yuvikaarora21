@@ -1,0 +1,24 @@
+.features {
+  background-color: #2b1e16;
+  color: #fff;
+
+  height: 403px;
+  /* height: 10%; */
+}
+.fllist {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* .base{
+    flex-basis: 20%;
+} */
+@media only screen and (max-width: 500px) {
+  .features {
+    height: 100%;
+  }
+  .fllist {
+    flex-direction: column;
+    padding: 2% 10%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,30 @@
+.ulist {
+  list-style-type: none;
+  display: inline-block;
+  width: 87%;
+  padding: 0;
+  text-align: left;
+  margin: 0;
+  /* margin-left: -80px; */
+}
+.ulist li {
+  display: inline;
+  font-weight: bolder;
+}
+
+.pop {
+  text-align: left;
+  /* margin-left: 120px; */
+}
+.ulist li:nth-child(even),
+.grey {
+  color: #93959f;
+}
+.grey {
+  font-weight: 600;
+  line-height: 1;
+  /* margin: 30px 0 10px 0; */
+}
+.ulist li:nth-child(odd) {
+  color: #282c3f;
+}

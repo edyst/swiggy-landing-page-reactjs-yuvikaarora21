@@ -1,0 +1,18 @@
+.flist {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  flex-basis: 25%;
+  /* height: 30%; */
+}
+
+.img {
+  height: 50%;
+  /* width: 60%; */
+}
+.title {
+    margin-top: 10%;
+    margin-bottom: 5%;
+  font-weight: bolder;
+}

@@ -1,0 +1,145 @@
+.login {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  /* transition: all 5s; */
+
+  /* top: 50%;
+    left: 50%;
+    font-size: larger; */
+  /* font-weight: 900; */
+}
+.content {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  width: 37%;
+  height: 100vh;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 63%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.s {
+  font-size: 30px;
+  font-weight: lighter;
+  cursor: pointer;
+
+  /* margin-top: 10%; */
+}
+.center {
+  margin: 5%;
+}
+.xd {
+  display: flex;
+  width: 360px;
+  justify-content: space-between;
+}
+img {
+  height: 105px;
+  width: 100px;
+}
+.l {
+  margin-top: 25px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.create {
+  text-decoration: none;
+  color: #fc8019;
+}
+.or {
+  padding-bottom: 23px;
+  /* border-width: 100px; */
+  border-bottom: 2px solid #000;
+}
+.mt {
+  margin-top: 70px !important;
+}
+.inputLogin {
+  height: 72px;
+  width: 358px;
+}
+.inputLogin input {
+  height: 100%;
+  width: 100%;
+}
+.slogs {
+  margin-top: 10px;
+  height: 50px;
+  width: 362px;
+}
+.slog {
+  margin-top: 30px;
+  background-color: #fc8019;
+  height: 100% !important;
+  width: 100% !important;
+}
+.policy {
+  margin-top: 32px;
+  width: 362px;
+  font-size: 12px;
+  color: #686b78 !important;
+}
+.policy a {
+  text-decoration: none;
+  color: #000;
+}
+.inputLogin {
+  position: relative;
+}
+.loginInpu:focus {
+  border: 1px solid #686b78;
+  outline: 0;
+  /* outline: 1px solid #686b78; */
+}
+.contentLabel {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  color: #686b78;
+  font-size: large;
+  width: 100%;
+  height: 100%;
+  transition: ease 0.4s;
+  /* transform: translateY(100%); */
+}
+.contentLogin {
+  position: absolute;
+  bottom: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  /* cursor:text; */
+}
+.inputLogin input:focus + .contentLabel {
+  font-size: small;
+  transform: translateY(-50%);
+}
+@media only screen and (max-width: 1200px) {
+  .content {
+    position:sticky!important;
+    top: auto;
+    left: 0%;
+    width: 100%!important;
+    z-index: 11;
+  }
+  .backdrop{
+    top: auto;
+    left: 0%;
+    height: 0%;
+    width: 0%;
+  }
+  .xd{
+    justify-content: stretch;
+  }
+}
